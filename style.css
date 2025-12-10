@@ -785,8 +785,17 @@ h3 {
 		transform: translateX(0);
 	}
 
-	#hero h1 {
-		font-size: 3.5rem !important;
+	#hero h1:nth-child(1) {
+		font-size: 1.6rem !important;
+		letter-spacing: 2px;
+	}
+
+	#hero h1:nth-child(2) {
+		font-size: 4rem !important;
+	}
+
+	#hero h1:nth-child(3) {
+		font-size: 2rem !important;
 	}
 
 	#projects .project-item {
