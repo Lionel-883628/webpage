@@ -25,7 +25,8 @@
 }
 
 html {
-	font-size: 62.5%;
+	font-size: 10px;
+	/* Force 10px to prevent browser default variations */
 	/* Standard for 1rem = 10px, better compatibility */
 	font-family: 'Outfit', sans-serif;
 	scroll-behavior: smooth;
