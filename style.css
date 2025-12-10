@@ -528,13 +528,14 @@ h3 {
 
 #projects .project-item:nth-child(odd) .project-info {
 	text-align: right;
-	padding-left: 20px;
-	/* Gap from image */
+	padding-left: 50px;
+	/* Increased gap from image */
 }
 
 #projects .project-item:nth-child(even) .project-info {
 	text-align: left;
-	padding-right: 20px;
+	padding-right: 50px;
+	/* Increased gap from image */
 }
 
 #projects .project-info h1 {
